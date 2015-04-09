@@ -1,0 +1,17 @@
+// Estilos del Proyecto Portafolio
+
+
+// Parciales
+
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/placeholders";
+@import "partials/globals";
+@import "partials/layout";
+
+// Modules
+@import "partials/components/header";
+@import "partials/components/navigation";
+@import "partials/components/footer";
+@import "partials/components/content";
+@import "partials/components/sidebar";
