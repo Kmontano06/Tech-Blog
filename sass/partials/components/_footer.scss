@@ -1,0 +1,19 @@
+.footer-main{
+	background:$color-gris;
+	padding:30px;
+	position:relative;
+}
+.footer-main .social-networks{
+	position:absolute;
+  bottom: 15px;
+  right: 200px;
+}
+.sub-navigation-list .link-navigation-item{
+	color:$color-gris-dark;
+	font-size:20px;
+	padding:10px;
+}
+.social-title-gray{
+  color:$color-gris-dark;
+	font-size:20px;
+}

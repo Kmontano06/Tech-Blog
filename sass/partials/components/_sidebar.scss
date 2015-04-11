@@ -1,0 +1,56 @@
+.sidebar{
+	float:right;
+	width:25%;
+  margin-top: -1635px;
+  margin-right: 115px;
+}
+.title-sidebar{
+	color:$color-turquesa;
+	font-size:15px;
+	font-family:$font-title;
+
+}
+.line-title-sidebar{
+	border:2px solid $color-turquesa;
+	margin-top:-12px;
+}
+.form-name{
+	background:$color-gris;
+	border:none;
+  padding: 13px;
+}
+.button-sidebar{
+	border:none;
+	background:$color-celeste;
+	color:$color-white;
+  font-size: 12px;
+  padding: 13px;
+}
+.sidebar-news .sidebar-news-item{
+	font-weight:bold;
+	color:$color-black;
+	font-size: 16px;
+}
+.sidebar-publicity{
+  padding-left: 35px;
+  margin-bottom: 35px;
+}
+.sidebar-publicity .square-large{
+	width:250px;
+	height:250px;
+	margin-top: -18px;
+}
+.sidebar-web .sidebar-web-item{
+	font-weight:bold;
+	font-size: 15px;
+	margin: 0;
+}
+.sidebar-web .note-orange{
+	color:$color-naranja;
+	font-size:10px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.line-sidebar{
+	margin-top:10px;
+}

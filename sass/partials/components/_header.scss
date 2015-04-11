@@ -1,9 +1,18 @@
 .header-main{
 	background:$color-turquesa;
 	width:100%;
-	margin-top:-20px;
+	height: 260px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
-.social-networks{
+.header-main .social-networks{
 	display:inline-block;
-	width:10%;
+	position:absolute;
+  bottom: 40px;
+  right: 170px;
+}
+.title-main{
+	font-size:30px;
+	color:$color-white;
 }

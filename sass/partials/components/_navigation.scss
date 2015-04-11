@@ -1,15 +1,26 @@
 .navigation-main{
 	padding-left: 100px;
-	padding-top: 40px;
-	width:85%;
+	padding-top: 25px;
+	width:80%;
 	display:inline-block;
 }
 .list-navigation-main{
 	list-style:none;	
 	margin-left:-40px;
 }
-.navigation-item{
+.list-navigation-item{
 	display:inline-block;
-	font-size:25px;
-	font-weight:bold;
+	
+}
+.list-navigation-main .list-navigation-link{
+	color:$color-white;
+	font-size:20px;
+	font-weight:normal;
+	font-family:$font-body;
+	padding:10px;
+}
+.list-navigation-main .list-navigation-link:hover{
+	background:$color-turquesa-lighter;
+	padding:10px;
+	z-index:1;
 }
